@@ -1,0 +1,148 @@
+
+@font-face {
+    font-family: 'Custom';
+    src: url(../../resources/fonts/Demon\ _Night.ttf);
+}
+
+
+.head {
+    background-color: aqua;
+}
+
+.film{
+    display: flex;
+    justify-content: center;
+    font-family: 'Custom';
+    font-size: 2em;
+    color: brown;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.navigation a{
+    text-decoration: none;
+}
+.navigation li {
+    background-color: aquamarine;
+    font-size: 1.2em;
+    font-family: 'Sofia Sans';
+    margin-bottom:1em;
+}
+
+.info_basic{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap ;
+    width: 100%;
+    height: 25em;
+}
+
+.info_text{
+    width: 40%;
+    background-color: aqua;
+}
+
+.trailer_movie{
+    background-color: rgb(79, 131, 131);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+    flex-direction: column;
+}
+
+.personal{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap ;
+    width: 100%;
+}
+
+.recomendation{
+    width: 40%;
+    background-color: rgb(79, 131, 131);
+    display: flex;
+    justify-content: center;
+}
+
+.recomendation video{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.personal_texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: aqua;
+    width: 60%;
+}
+
+.streaming_panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.container_char {
+    background-color: rgb(79, 131, 131);
+}
+
+.characters{
+    margin-top: 2em ;
+    margin-left: 3em;
+    display: grid;
+
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 20px;
+
+}
+
+.number {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(121, 88, 88);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.n9 {
+    background-image: url(../../resources/img/img9.png);
+}
+.n1 {
+    background-image: url(../../resources/img/img1.png);
+}
+.n5 {
+    background-image: url(../../resources/img/img5.png);
+}
+.n2 {
+    background-image: url(../../resources/img/img2.png);
+}
+.n8 {
+    background-image: url(../../resources/img/img8.png);
+}
+.number:hover .note{
+    visibility: visible;
+    height: 15em;
+}
+
+.note{
+    visibility: hidden;
+    width: 100%;
+    height: 1em;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
+    transition: height 0.7s;
+    -webkit-transition: height 0.7s;
+    -moz-transition: height 0.7s;
+    -ms-transition: height 0.7s;
+    -o-transition: height 0.7s;
+}

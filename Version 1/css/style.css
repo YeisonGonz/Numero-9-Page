@@ -4,32 +4,51 @@
     src: url(../../resources/fonts/Demon\ _Night.ttf);
 }
 
-
-
-
+body,html{
+    background-color: #262526;
+}
 
 .head {
-    background-color: aqua;
+    background-image: url(../../resources/img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-y: -10em;
+    background-size:100%;
+    height: 7cm;
 }
+
+@media (min-width: 1100px) {
+    .head{
+        background-position-y:-10em;
+    }
+}
+
+
 
 .film{
     display: flex;
     justify-content: center;
     font-family: 'Custom' !important;
     font-size: 2em;
-    color: brown;
+    color: rgb(255, 255, 255);
 }
- h2, h3, p, a {
+
+h2, h3, p, a {
     font-family: 'Sofia Sans';
 }
+
+
+
 .navigation ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
+
 .navigation a{
     text-decoration: none;
 }
+
 .navigation li {
     background-color: aquamarine;
     font-size: 1.2em;
@@ -43,11 +62,16 @@
     flex-wrap: wrap ;
     width: 100%;
     height: 25em;
+    margin-top: 1em;
 }
 
 .info_text{
     width: 40%;
-    background-color: aqua;
+    background-color: #f3f3f3;
+}
+
+.info_text h3,p {
+    margin: 1em;
 }
 
 .trailer_movie{
@@ -57,6 +81,7 @@
     align-items: center;
     justify-content:baseline;
     flex-direction: column;
+    background-color: #f3f3f3;
 }
 
 .personal{
@@ -69,7 +94,7 @@
 
 .recomendation{
     width: 40%;
-    background-color: rgb(79, 131, 131);
+    background-color:#f3f3f3;
     display: flex;
     justify-content: center;
 }
@@ -77,6 +102,7 @@
 .recomendation video{
     margin-top: 1em;
     margin-bottom: 1em;
+    
 }
 
 .personal_texto{
@@ -84,21 +110,25 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color: aqua;
+    background-color: #f3f3f3;
     width: 60%;
 }
 
 .streaming_panel{
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
-    background-color: aqua;
+    background-color: #f3f3f3;
     width: 100%;
     margin-top: 1em;
 }
 
+.streming_text{
+    display: flex;
+    justify-content: center;
+}
+
 .container_char {
-    background-color: rgb(79, 131, 131);
+    background-color: #7f8084;
 }
 
 .characters{
@@ -108,6 +138,8 @@
 
     grid-template-columns: 2fr 2fr 2fr;
     grid-gap: 20px;
+
+
 
 }
 
@@ -119,10 +151,15 @@
     background-size: 100% 100%;
     display: flex;
     align-items: flex-end;
+
+    border-color: #262526;
+    border-width: 10px;
+    border-style: outset;
 }
 
 .n9 {
     background-image: url(../../resources/img/img9.png);
+    
 }
 .n1 {
     background-image: url(../../resources/img/img1.png);
@@ -156,12 +193,13 @@
 
 .director {
     display: flex;
-    background-color: rgb(52, 151, 118);
+    background-color: #f3f3f3;
     margin-top: 1em;
 }
 
 .text_director {
     width: 50%;
+    margin-left: 2em;
 }
 
 .director_image {
@@ -178,7 +216,11 @@
 
 
 .enemies {
-    background-color: aqua;
+    background-color: #d7d8da;
+}
+
+.enemie{
+    box-shadow: 20px 25px 24px -9px rgba(0,0,0,0.75);
 }
 
 .enemies .up{
@@ -186,6 +228,15 @@
     justify-content: space-around;
     width: 100%;
     height: 23em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.enemies_text {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+
 }
 
 .e1{
@@ -207,6 +258,7 @@
     background-image:url(../../resources/img/enemie5.jpg);
     display: flex;
     align-items: flex-end;
+    margin-bottom: 1em;
 }
 
 .down{
@@ -222,25 +274,36 @@
 }
 
 .gallerie{
-    background-color: bisque;
+    background-color: #d7d8da;
 }
 
 .images {
     display: flex;
     flex-wrap:wrap ;
     justify-content: space-around;
-    
 }
 
 .images img{
     margin-top: 1em;
+    margin-bottom: 1em;
     width: 30em;
     height: 50%;
 }
 
 .bibliography{
-    background-color: blanchedalmond;
+    background-color: #d7d8da;
     margin-top: 1em;
+    
+}
+
+.bibliography_link a{
+    text-decoration:none;
+    color: #252527;
+}
+
+.b_text{
+   padding-left: 1em;
+   padding-top: 0.1em;
 }
 
 
@@ -250,6 +313,7 @@
     border:hidden;
     height: 10em;
     border-collapse: collapse;
+    margin-bottom: 2em;
 }
 
 td, th {
@@ -259,9 +323,13 @@ td, th {
     text-align: center;
 }
 th {
-    background-color: #04AA6D;
+    background-color: #252527;
     color: white;
 }
 td {
-    background-color: #7dddba; 
+    background-color: #a5a5a5; 
 }
+
+
+
+

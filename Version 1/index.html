@@ -17,10 +17,10 @@
         <div class="navigation">
             <ul>
                 <li><a href="#characters">Personajes</a></li>
-                <li><a href="">Galeria</a></li>
+                <li><a href="#gallerie">Galeria</a></li>
                 <li><a href="#director">Director</a></li>
                 <li><a href="#enemies">Enemigos</a></li>
-                <li><a href="">Inicio</a></li>
+                <li><a href="#head">Inicio</a></li>
             </ul>
         </div>
     </div>
@@ -102,22 +102,27 @@
                 </div>
                 <div class="number n1">
                     <div class="note">
-                        
+                        <h2>Numero 1</h2>
+                        <p>Este es el primer muñeco creado, el se auto considera el lider del resto del grupo, tiene como secuaz al numero 8, el piensa que es mejor 
+                            permanecer escondidos en una iglesia.</p>
                     </div>
                 </div>
                 <div class="number n5">
                     <div class="note">
-                        
+                        <h2>Numero 5</h2>
+                        <p>Un personaje miedoso que se dedica a visualizar desde lo alto del campanario la ciudad destruida y cartografiarla en un papel con la ayuda de numero 2.</p>
                     </div>
                 </div>
                 <div class="number n2">
                     <div class="note">
-                        
+                        <h2>Numero 2</h2>
+                        <p>El personaje mas inteligente del grupo, se dedica a crear ingeniosos aparatos y cachibaches con los objetos que encuentra en el yermo, el es el único que sale a explorar.</p>
                     </div>
                 </div>
                 <div class="number n8">
                     <div class="note">
-                        
+                        <h2>Numero 8</h2>
+                        <p>El fuerte del grupo, este personaje es algo misterioso ya que no habla, es la mano derecha de Numero 1 y el encargado de luchar y defender al grupo.</p>
                     </div>
                 </div>
             </div>
@@ -187,18 +192,17 @@
     
         <div class="form">
             <form>
-                <div class="form_text">
+                <div class="form_text formulario">
                     <h3>¿Cual es tu opinion sobre la pelicula?</h3>
                 </div>
-                <div class="form_name">
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name"/>
+                <div class="form_name formulario">
+                    <input type="text" id="name" placeholder="Nombre"/>
+                    <input type="text" id="name" placeholder="Apellidos"/>
                 </div>
-                <div class="form_opinion">
-                    <label for="rate">Opinion:</label>
-                    <textarea id="rate" name="rate"></textarea>
+                <div class="form_opinion formulario">
+                    <textarea id="rate" name="rate" placeholder="Dinos que opinas de la pelicula.."></textarea>
                 </div>
-                <div class="form_character">
+                <div class="form_character formulario">
                     <label for="name">Personaje favorito:</label>
                     <select name="character">
                         <option value="1">Número  9</option>
@@ -212,7 +216,7 @@
                         <option value="9">Número  8</option>
                     </select>
                 </div>
-                <div class="form_platform">
+                <div class="form_platform formulario">
                     <legend>Plataforma:</legend>
                     <input type="radio" id="amazon" name="plataforma" value="amazon">
                     <label for="amazon">Amazon Prime Video</label><br>
@@ -221,27 +225,28 @@
                     <input type="radio" id="aple" name="plataforma" value="aple">
                     <label for="aple">Aple Tv</label>
                 </div>
-                <div class="form_rate">
+                <div class="form_rate formulario">
                     <legend>Puntuación:</legend>
-                    <input type="radio" id="star1" name="rate"/>
-                    <label title="text">1 Estrella</label>
-                    <input type="radio" id="star2" name="rate"/>
-                    <label title="text">2 Estrella</label>
-                    <input type="radio" id="star3" name="rate"/>
-                    <label title="text">3 Estrellas</label>
-                    <input type="radio" id="star4" name="rate"/>
-                    <label title="text">4 Estrellas</label>
-                    <input type="radio" id="star5" name="rate"/>
-                    <label title="text">5 Estrellas</label>
+                    <select name="rates">
+                        <option value="1">🌟</option>
+                        <option value="2">🌟🌟</option>
+                        <option value="3">🌟🌟🌟</option>
+                        <option value="4">🌟🌟🌟🌟</option>
+                        <option value="5">🌟🌟🌟🌟🌟</option>
+                    </select>
                 </div>
-                <div class="form_personal">
+                <div class="form_personal formulario">
                     <legend>¿Recomendarias la pelicula?</legend>
-                    <input type="radio" id="si" name="recomend"/>
-                    <label title="text">Si</label>
-                    <input type="radio" id="no" name="recomend"/>
-                    <label title="text">No</label>
+                    <div class="recomend">
+                        <input type="radio" id="si" name="recomend"/>
+                        <label title="text">Si</label>
+                    </div>
+                    <div class="recomend">
+                        <input type="radio" id="no" name="recomend"/>
+                        <label title="text">No</label>
+                    </div>
                 </div>
-                <div class="form_submit">
+                <div class="form_submit formulario">
                     <input type="submit" value="Enviar">
                 </div>
             </form>

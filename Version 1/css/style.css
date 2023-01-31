@@ -45,16 +45,32 @@ h2, h3, p, a {
     list-style: none;
 }
 
-.navigation a{
-    text-decoration: none;
-}
+
 
 .navigation li {
-    background-color: aquamarine;
+    background-color: rgb(39, 39, 39);
     font-size: 1.2em;
     font-family: 'Sofia Sans';
     margin-bottom:1em;
+    width: 5em;
+    height: 2em;
+    text-align: center;
+    color: #f3f3f3;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
 }
+
+.navigation a{
+    position: relative;
+    top: 20%;
+    text-shadow: #a5a5a5;
+    text-decoration: none;
+    color: #f3f3f3;
+    
+} 
 
 .info_basic{
     display:flex;
@@ -331,5 +347,98 @@ td {
 }
 
 
+.form{
+    background-color: #a5a5a5; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.formulario{
+    margin-top: 1em;
+}
+
+.form_name{
+    display: flex;
+    flex-direction: column;
+}
 
 
+
+.form_name input{
+    margin-top: 1em;
+    font-size: 1.2em;
+    background-color: #a5a5a5;
+    border: none;
+    border-bottom: 2px solid #262526;
+    outline: none;
+}
+
+.form_opinion textarea {
+    margin-top: 1em;
+    font-size: 1.2em;
+    background-color: #a5a5a5;
+    border: none;
+    border-bottom: 2px solid #262526;
+    outline: none;
+}
+
+.form_character, label{
+    font-family: 'Sofia Sans';
+    font-size: 1.1em;
+}
+
+
+
+
+select{
+
+    background-color: #d7d8da;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+
+option {
+    font-family: 'Sofia Sans';
+}
+
+.form_platform {
+    font-family: 'Sofia Sans';
+    font-size: 1.2em;
+}
+
+.form_rate{
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    font-family: 'Sofia Sans';
+    font-size: 1.2em;
+}
+
+.form_personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_submit input{
+    background-color: #707070;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}

@@ -8,5 +8,5 @@ Esta pagina ha sido realizada por Yeison González Rascado, alumno de 1º de DAW
 + Esta version es el archivo html básico, sin ningun estilo añadido.
 ## [Versión 1](../Numero-9-Page/Version%201/index.html)
 + Versión usando CSS y CSS3, con una amplia variedad de propiedades y mi estilo personal.
-## [Versión 2]()
+## [Versión 2](../Numero-9-Page/Version%202/public_html/index.html)
 + Version de la página original mezclada con un estilo y plantilla extraida de la comunidad.

@@ -51,4 +51,4 @@ Despliegue Web ➜ [Aquí](https://yeisongonz.github.io/Numero-9-Page/)
 
 Aquí dejo un pequeño esquema explicativo de como estan dispuestas las imagenes.
 
-![image](../Numero-9-Page/resources/img/schema.png)
+![image](resources/img/schema.png)

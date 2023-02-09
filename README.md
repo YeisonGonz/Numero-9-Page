@@ -52,3 +52,20 @@ Despliegue Web ➜ [Aquí](https://yeisongonz.github.io/Numero-9-Page/)
 Aquí dejo un pequeño esquema explicativo de como estan dispuestas las imagenes.
 
 ![image](resources/img/schema.png)
+
+#### ¿Como use grid layout?
+
+En la página use grid para la sección de los personajes.
+
+Se usa un grid de 5 elementos.
+
+```css
+.characters{
+    margin-top: 2em ;
+    margin-left: 3em;
+    display: grid;
+
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 20px;
+}
+```

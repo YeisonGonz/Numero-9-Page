@@ -526,3 +526,10 @@ legend {
 .card_text{
     margin-left: 1em;
 }
+
+.section_header{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+}

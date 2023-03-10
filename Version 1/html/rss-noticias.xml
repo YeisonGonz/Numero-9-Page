@@ -18,6 +18,9 @@
             <guid>https:myweb.com/index/articulos/articulo1.html</guid>
 
             <managingEditor></managingEditor>
+            <copyright></copyright>
+            <pubDate></pubDate>
+            <webMaster></webMaster>
 
         </item>
     </channel>

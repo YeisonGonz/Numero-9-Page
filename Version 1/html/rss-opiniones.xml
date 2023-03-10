@@ -6,6 +6,22 @@
         <description>Pagina sobre las opiniones y comentarios de la pelicula Numero9</description>
         <language>ES</language>
         <category>Comentarios</category>
+
+        <item>
+            <!-- Las explicaciones de las etiquetas estan en el README.md del inicio -->
+
+            <title>Cómo los fundadores de Google engañaron a Eric Schmidt para crear el navegador Chrome en secreto. </title>
+            <link>https://www.xataka.com/historia-tecnologica/como-fundadores-google-enganaron-a-eric-schmidt-para-crear-navegador-chrome-secreto </link>
+            <description>Eric Schmidt crea un navegador a espaldas de Google </description>
+            <author>ericmarina@gmail.com (Eric Marina)</author>
+            <category>Noticias</category>
+            <guid>https:myweb.com/index/articulos/articulo1.html</guid>
+
+            <managingEditor></managingEditor>
+            <copyright></copyright>
+            <pubDate></pubDate>
+            <webMaster></webMaster>
+        </item>
     </channel>
 </rss>
 

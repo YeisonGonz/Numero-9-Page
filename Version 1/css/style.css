@@ -517,6 +517,7 @@ legend {
     background-color: #707070;
     display: flex;
     justify-content: center;
+    font-size: 13px;
 }
 
 .card_not img{
@@ -532,4 +533,30 @@ legend {
     display: flex;
     justify-content: center;
     background-color: #f3f3f3;
+}
+
+.art_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5a5858;
+}
+
+.art_head{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1em;
+
+}
+
+.art_text{
+    padding: 10px;
+    background-color: #f3f3f3;
+    font-size: 25px;
+}
+
+.art_resumen{
+    margin-left: 3em;
 }

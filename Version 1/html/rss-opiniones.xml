@@ -7,20 +7,52 @@
         <language>ES</language>
         <category>Comentarios</category>
 
+        <!-- Las explicaciones de las etiquetas estan en el README.md del inicio -->
+
+        <managingEditor>yeisonrascado@gmail.com (Yeison Rascado)</managingEditor>
+        <webMaster>yeisonrascado@gmail.com (Yeison Rascado)</webMaster>
+        <copyright>CC 4.0 – BY-SA</copyright>
+
         <item>
-            <!-- Las explicaciones de las etiquetas estan en el README.md del inicio -->
+            <title>Comentario sobre Numero 9</title>
+            <link>https://www.lahiguera.net/cinemania/pelicula/4489/comentario.php</link>
+            <description>La fantasía de animación NÚMERO 9, de Shane Acker, está basada en el cortometraje de igual título, nominado por la Academia,
+                que él mismo dirigió en 2004. El guión de esta película llena de aventuras y acción es de Pamela Pettler (Monster House),
+                y está producida, entre otros, por los realizadores Tim Burton (Bitelchús) y Timur Bekmambetov (Wanted/Se busca).
+            </description>
+            <author>higueraweb@gmail.com (Lahiguera Web)</author>
+            <category>Comentarios</category>
+            <guid>https:myweb.com/index/articulos/articulo4.html</guid>
 
-            <title>Cómo los fundadores de Google engañaron a Eric Schmidt para crear el navegador Chrome en secreto. </title>
-            <link>https://www.xataka.com/historia-tecnologica/como-fundadores-google-enganaron-a-eric-schmidt-para-crear-navegador-chrome-secreto </link>
-            <description>Eric Schmidt crea un navegador a espaldas de Google </description>
-            <author>ericmarina@gmail.com (Eric Marina)</author>
-            <category>Noticias</category>
-            <guid>https:myweb.com/index/articulos/articulo1.html</guid>
+            <pubDate>Thu, 12 Sep 2019 08:00:00 EST</pubDate>
+        </item>
 
-            <managingEditor></managingEditor>
-            <copyright></copyright>
-            <pubDate></pubDate>
-            <webMaster></webMaster>
+        <item>
+            <title>Carteles de personajes de '9'</title>
+            <link>https://www.ecartelera.com/noticias/4440/carteles-personajes-9/</link>
+            <description>'9' es la nueva cinta de animación que desarrolla Focus Features, una historia de acción
+                y aventura postapocalíptica que llegará a nuestras pantallas el 23 de octubre de este año
+            </description>
+            <author>ecartelera@gmail.com (ECarterlera Web)</author>
+            <category>Comentarios</category>
+            <guid>https:myweb.com/index/articulos/articulo5.html</guid>
+
+            <pubDate>Sat, 19 Sep 2009 08:00:00 EST</pubDate>
+
+        </item>
+
+        <item>
+            <title>Resumen Numero 9</title>
+            <link>https://www.lavanguardia.com/peliculas-series/peliculas/numero-9-12244</link>
+            <description>Cuando llegó el fin del mundo, comenzó su misión.
+                Aventura post-apocalíptica protagonizada por nueve muñecos de trapo que
+                deberán enfrentarse a unas máquinas gigantes si quieren preservar el futuro de la civilización...
+            </description>
+            <author>lavanguardia@gmail.com (LaVanguardia Web)</author>
+            <category>Comentarios</category>
+            <guid>https:myweb.com/index/articulos/articulo6.html</guid>
+
+            <pubDate>Mon, 22 Aug 2016 15:30:00 EST</pubDate>
         </item>
     </channel>
 </rss>

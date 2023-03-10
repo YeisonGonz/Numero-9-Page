@@ -7,21 +7,50 @@
         <language>ES</language>
         <category>Noticias</category>
 
-        <item>
-            <!-- Las explicaciones de las etiquetas estan en el README.md del inicio -->
+        <!-- Las explicaciones de las etiquetas estan en el README.md del inicio -->
 
-            <title>Cómo los fundadores de Google engañaron a Eric Schmidt para crear el navegador Chrome en secreto. </title>
-            <link>https://www.xataka.com/historia-tecnologica/como-fundadores-google-enganaron-a-eric-schmidt-para-crear-navegador-chrome-secreto </link>
-            <description>Eric Schmidt crea un navegador a espaldas de Google </description>
-            <author>ericmarina@gmail.com (Eric Marina)</author>
+        <managingEditor>yeisonrascado@gmail.com (Yeison Rascado)</managingEditor>
+        <webMaster>yeisonrascado@gmail.com (Yeison Rascado)</webMaster>
+        <copyright>CC 4.0 – BY-SA</copyright>
+
+
+        <item>
+            <title>El corto en el que está basada la película, dirigido también por Shane Acker, estuvo nominado al Oscar.</title>
+            <link>https://www.sensacine.com/noticias/cine/noticia-18461021/</link>
+            <description>Está online el tráiler de '9', el primer largometraje de Shane Acker.</description>
+            <author>traileraddict@gmail.com (Trailer Addict)</author>
             <category>Noticias</category>
             <guid>https:myweb.com/index/articulos/articulo1.html</guid>
 
-            <managingEditor></managingEditor>
-            <copyright></copyright>
-            <pubDate></pubDate>
-            <webMaster></webMaster>
+            <pubDate>Thu, 12 Sep 2019 08:00:00 EST</pubDate>
+        </item>
 
+        <item>
+            <title>Oda a 'Numero 9', la película que nos recordó que la animación también puede ser oscura y adulta</title>
+            <link>https://www.ecartelera.com/noticias/oda-numero-9-animacion-oscura-adulta-58665/</link>
+            <description>El terreno de la animación nos ha demostrado, en múltiples ocasiones a lo largo de las últimas décadas, estar preparado para crear y
+                albergar historias que (sin que suene más melodramático de lo que ya es)
+                erradiquen el estigma de la infantilización a la que la industria...</description>
+            <author>jorgemontenegro@gmail.com (Jorge Montenegro)</author>
+            <category>Noticias</category>
+            <guid>https:myweb.com/index/articulos/articulo2.html</guid>
+
+            <pubDate>Mon, 12 Sep 2013 08:00:00 EST</pubDate>
+
+        </item>
+
+        <item>
+            <title>Nueve ejemplos de cortos convertidos en largometrajes</title>
+            <link> https://www.ecartelera.com/noticias/33293/nueve-cortometrajes-convertidos-en-largometrajes/6/</link>
+            <description>Aunque parezca una obviedad, no es lo mismo contar con cinco
+                minutos para contar una historia, que con 120. Si algo nos ha demostrado el nivel apabullante de las series de televisión en
+                las últimas dos décadas, es que cuanto más espacio tienes para desarrollar a unos personajes, una trama y un universo..
+            </description>
+            <author>albertofrutos@gmail.com (Alberto Frutos)</author>
+            <category>Noticias</category>
+            <guid>https:myweb.com/index/articulos/articulo3.html</guid>
+
+            <pubDate>Mon, 22 Aug 2016 15:30:00 EST</pubDate>
         </item>
     </channel>
 </rss>

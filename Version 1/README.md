@@ -28,3 +28,19 @@ Aqui todas las explicaciones de las etiquetas rss adicionales usadas.
 #### webMaster
 
 > El elemento webMaster integra el correo electrónico de la persona encargada de solucionar los problemas técnicos del canal. En el ejemplo actual, esto no tiene lugar en el sentido de la especificación.
+
+
+#### Validaciones
+
+##### rss-noticias
+
+![image](html/validation-noticias.png)
+
+![image](src/reference1.png)
+
+
+##### rss-comentarios
+
+![image](html/validation-opiniones.png)
+
+![image](src/reference2.png)
